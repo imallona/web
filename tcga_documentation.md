@@ -5,7 +5,7 @@ output:
     toc: true
     theme: readable
 ---
-
+  
 ## Data sources
 
 ### The Cancer Genome Atlas
@@ -63,3 +63,5 @@ head gdac.broadinstitute.org_ACC.Merge_rnaseqv2__illuminahiseq_rnaseqv2__unc_edu
 * [Pancancer Epigenomics Slack channel](https://pancancer-epigenomics.slack.com/)
 
 _Last updated 15th Jan 2019 by imallona_
+
+[Back to teaching](teaching.html)
