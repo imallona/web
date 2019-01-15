@@ -6,7 +6,7 @@ output:
     theme: readable
 ---
 
-## Data resources
+## Data sources
 
 ### The Cancer Genome Atlas
 * [Overview](https://cancergenome.nih.gov/)
@@ -52,6 +52,12 @@ head gdac.broadinstitute.org_ACC.Merge_rnaseqv2__illuminahiseq_rnaseqv2__unc_edu
 ### Code styling
 * [Google's R style guide](https://google.github.io/styleguide/Rguide.xml)
 * [Python PEP8](https://www.python.org/dev/peps/pep-0008/)
+
+## Training
+
+* [SIB Swiss Institute of Bioinformatics tutorial on UNIX](https://edu.sib.swiss/pluginfile.php/2878/mod_resource/content/4/couselab-html/content.html)
+* [Shell cheatsheet](https://files.fosswire.com/2007/08/fwunixref.pdf)
+* [awk cheatsheet](http://www.grymoire.com/Unix/Awk.html)
 
 ## Slack channel
 * [Pancancer Epigenomics Slack channel](https://pancancer-epigenomics.slack.com/)
