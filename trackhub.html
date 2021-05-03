@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="application/html-dependencies">font-awesome[4.2.0];bootstrap[3.3.1]</script>
+    <script src="shared/jquery.js"></script> 
+    <!-- <script src="shared/bootstrap/bootstrap.js"></script>  -->
+    <script src="shared/bootstrap/js/bootstrap.min.js"></script>
+    <title>Pan-cancer DNA methylation profiling trackhub</title>
+    <link rel="stylesheet" type="text/css" href="united.css"/>
+    <meta name="description" content="The TCGA 450k trackhub">
+    <meta name="keywords" content="dna,methylation,450k,tcga,maplab,peinado,igtp,imppc">
+    <meta name="author" content="Izaskun Mallona">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-9835">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="navbar-brand">
+
+            <img src="images/trackhub_logo.png" width="40"/>
+          </span>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapse-9835">
+          <ul class="nav navbar-nav shiny-tab-input" id="main">
+            
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="http://maplab.cat" id="maplab">maplab tools<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="http://maplab.cat" target = "_blank">maplab</a></li>
+                <li class="divider"></li>
+                
+                <li><a href="http://maplab.cat/methylation_plotter/" target = "_blank">Methylation plotter</a></li>
+                <li><a href="http://maplab.cat/wanderer" target = "_blank">Wanderer</a></li>
+                <li><a href="http://maplab.cat/alu_ontology.html" target = "_blank">ontAlugy</a></li>
+                <li><a href="http://maplab.cat/chainy" target = "_blank">chainy</a></li>
+                <li><a href="http://maplab.cat/truke" target = "_blank">Truke</a></li>
+                <li><a href="http://maplab.cat/trackhub.html" target = "_blank">TCGA trackhub</a></li>
+              </ul>              
+            </li>
+
+            <li class="active">
+              <a href="#tab-3356-1" data-toggle="tab" data-value="welcome">TCGA trackhub</a>
+            </li>
+            
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          
+          <div class="row">
+            <h2>Pan-cancer DNA methylation profiling</h2>
+            The trackhub renders the DNA methylation profiles obtained from the TCGA Research Network as scrutinized by the Illumina Infinium 450k array.
+</p>
+<p>
+  For each cohort (i.e. colon primary tumors), the samples' methylation distribution is segmented into five bins (tracks) according to their beta values. Namely, beta values below 0.2 indicate the lowest DNA methylation whereas values over 0.8 depict almost full DNA methylation. Color intensity in each track represents the proportion of samples matching the methylation status (the darker, the higher). The stacked five tracks can be thought of as a density plot of the cohort methylation status.
+</p>
+<p>
+  A track depicting differential methylation is available for cohorts with both primary tumors and adjacent normal data. Significant probes show an absolute increment of methylation beta value over 0.2 and under a Wilcoxon test p-value cut-off of 0.001. Gray depicts no detectable differences, red tumor hypermethylations and blue tumor hypomethylations.
+</p>
+<p>
+ The trackhub can be accessed at <a href="http://maplab.cat/tcga_450k_trackhub" target="_blank">http://maplab.cat/tcga_450k_trackhub</a>.
+</p>
+<p>  
+  If you consider this software useful please cite our paper:
+  </p>
+<li style="list-style-type:none">
+  <ul>
+    Mallona I, Sierco A, Peinado MA (2018). <a href="https://link.springer.com/protocol/10.1007%2F978-1-4939-7768-0_7" target="_blank">The Pancancer DNA Methylation Trackhub: A Window to The Cancer Genome Atlas Epigenomics Data.</a> <i>Methods Mol Biol</i> 1766:123-135.
+  </ul>
+  <ul>
+    <a href="https://www.ncbi.nlm.nih.gov/pubmed/29605850" target="_blank">PMID: 29605850</a>.
+  </ul>
+</li>
+<p>
+  Data have been obtained from the TCGA Research Network. Some datasets have limitations for usage until a global analysis is published; please contact TCGA before publishing. 
+</p>
+<p>
+  Developed by Alberto Sierco and Izaskun Mallona (<a href ="https://bitbucket.org/imallona/pancancer_dnameth_trackhub" target = "_blank">pan-cancer trackhub source code</a>). Please contact <a href="mailto:imallona@igtp.cat">Izaskun Mallona</a> or <a href="mailto:mpeinado@igtp.cat">Miguel A. Peinado</a>.
+</p>
+<br>
+<br>
+<p class="text-center">
+  <a href="http://maplab.cat/tcga_450k_trackhub" target="_blank"><b>Access the pan-cancer DNA methylation profiling track (opens a new tab)</b></a>
+</p>
+
+</div>
+
+
+
+<!-- <div class="row"> -->
+
+
+<hr/>
+<p class="muted text-center">
+  &copy; IMPPC, 2015 - Designed and maintained by <a href="mailto:imallona@igtp.cat">Izaskun Mallona</a> . Logo by <a href="mailto:judouet@gmail.com">Julien Douet</a>.</p>
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
